@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/Layout1">
+
+    <LinearLayout
+        android:id="@+id/Layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#d2691e">
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/gambar"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:paddingTop="20dp"
+            android:src="@mipmap/contoh_foto"
+            ></ImageView>>
+        <TextView
+            android:id="@+id/Caption"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Ananda Cipta Pamungkas"
+            android:gravity="center"
+            android:textSize="50px"
+            android:layout_margin="10dp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Layout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:background="#d2691e"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="50px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="50px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/ulangiPW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ulangi Password"
+            android:textSize="50px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"></Button>
+    </LinearLayout>
+
+</LinearLayout>
