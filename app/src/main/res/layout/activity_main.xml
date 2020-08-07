@@ -31,6 +31,7 @@
             android:textSize="50px"
             android:layout_margin="10dp"></TextView>
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/Layout3"
         android:layout_width="match_parent"
